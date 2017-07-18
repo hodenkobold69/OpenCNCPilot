@@ -2,12 +2,12 @@
 
 OpenCNCPilot is a GRBL compatible G-Code Sender.
 
-It's main feature is it's ability to **probe user-defined areas for warpage and wrap the toolpath around the curved surface**.
+It's main feature is its ability to **probe user-defined areas for warpage and wrap the toolpath around the curved surface**.
 This is especially useful for engraving metal surfaces with V-shaped cutters where any deviation in the Z-direction will result in wider or narrower traces, eg for **isolation milling PCBs** where warpage would result in broken or shorted traces.
 
 ![Screenshot](https://raw.githubusercontent.com/martin2250/OpenCNCPilot/master/img/Screenshot.png)
 
-It is written in C# and uses WPF for it's UI. Sadly this means that it will not run under linux as Mono does not support WPF.
+It is written in C# and uses WPF for its UI. Sadly, this means that it will not run under linux as Mono does not support WPF.
 The 3D viewport is managed with HelixToolkit.
 
 Here is a quick overview on YouTube [https://www.youtube.com/watch?v=XDCu3cgOjCY](https://www.youtube.com/watch?v=XDCu3cgOjCY)  
@@ -20,7 +20,7 @@ Unzip **all** files to your hard drive and run "OpenCNCPilot.exe"
 Make sure to use GRBL version 1.1f (later versions may work but are yet untested)
 
 ### Quick Start Guide
-Before the first run, you have to select a Serial Port, the selector is hidden in the Settings menu that you can access in the "Machine" tab. Other than that you don't need to modify any settings.  
+Before the first run, you have to select a Serial Port, the selector is hidden in the Settings menu that you can access in the "Machine" tab. Other than that, you don't need to modify any settings.  
 Now you can connect to your machine.
 
 Open gcode or height map files by dragging them into the window, or using the according buttons.
